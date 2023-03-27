@@ -2,6 +2,9 @@
 #include <sstream>
 #include <memory>
 #include <vector>
+
+#include "Builder.h"
+
 using namespace std;
 
 //Model for a HTML element
