@@ -1,4 +1,4 @@
-#include <algorithm>
+#include <stdafx.h>
 #include <vector>
 
 struct Point
@@ -68,11 +68,11 @@ struct LineToPointAdapter
         
     }
 
-    virtual std::vector<Line>::iterator begin() {
+    virtual std::vector<Point>::iterator begin() {
         return points.begin();
     }
     
-    virtual std::vector<Line>::iterator end() {
+    virtual std::vector<Point>::iterator end() {
         return points.end();
     }
 
