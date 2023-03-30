@@ -1,6 +1,5 @@
 {
     "files.associations": {
-        "*.ts": "typescript",
         "vector": "cpp",
         "sstream": "cpp",
         "iostream": "cpp",
