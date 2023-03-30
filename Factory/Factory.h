@@ -3,3 +3,5 @@
 #include <memory>
 #include <vector>
 #include <cmath>
+
+void factory_test();
